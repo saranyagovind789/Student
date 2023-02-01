@@ -5,7 +5,7 @@ public class Student {
     private String name;
     private Character grade;
     private Integer group;
-    private final String secretNickName = "MySecretNickName";
+    private final String SECRET_NICKNAME = "MySecretNickName";
 
     private final List<Character> grades = Arrays.asList('A', 'B', 'C', 'D', 'E', 'F');
     private final List<Integer> groups = Arrays.asList(1, 2, 3, 4, 5);
